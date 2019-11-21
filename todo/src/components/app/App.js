@@ -80,6 +80,7 @@ export default class App extends React.Component {
             }
         })
     }
+  
     render () {   
         const doneCount= this.state.todoData
         .filter((el)=>el.done).length ; 
