@@ -16,3 +16,7 @@
     color:steelblue;
     font-weight: bold;
 }
+.btn_size {
+    width: 50px;
+    margin: 2px;
+}

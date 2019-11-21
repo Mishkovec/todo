@@ -25,7 +25,7 @@ export default class AddItem extends React.Component {
             >
                 <input 
                     type='text'
-                    className='form-control'
+                    className='form-control add'
                     value={this.state.label}
                     onChange={this.onLabelChange}
                     placeholder='What need to be done'

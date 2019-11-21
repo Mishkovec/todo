@@ -22,17 +22,17 @@ export default class TodoListItem extends React.Component {
                 >
                     {label}
                 </span>
-                <div>
+                <div className='todo-list-item-part'>
                     <button
                         type='button'
-                        className='btn btn-outline-success'
+                        className='btn btn-outline-success btn_size'
                         onClick = {onToggleImportant}
                     >
                         <i className='fa fa-exclamation'/>
                     </button>
                     <button
                         type='button'
-                        className='btn btn-outline-danger'
+                        className='btn btn-outline-danger btn_size'
                         onClick= {this.props.onDeleted}
                     >
                         <i className='fa fa-trash-o'/>

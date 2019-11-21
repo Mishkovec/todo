@@ -11,10 +11,11 @@ export default class App extends React.Component {
     
     state = {
         todoData: [
-            this.createToDoItem('drink'),
-            this.createToDoItem('eat'),
+            this.createToDoItem('drink coffee'),
+            this.createToDoItem('drink water'),
             this.createToDoItem('drink juice'),
-            this.createToDoItem('drink alcohol'),
+            this.createToDoItem('eat pizza'),
+            this.createToDoItem('eat cake'),
         ],
         term: '',
         filter: 'all'
